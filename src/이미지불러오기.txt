@@ -1,0 +1,16 @@
+import React from "react";
+
+import './App.css';
+import Naverimg from './images/naver.png';
+
+function App(){
+
+    return{
+        <div>
+            <div className="naverimg">naverimg</div>
+
+            
+        </div>
+        
+    }
+}
