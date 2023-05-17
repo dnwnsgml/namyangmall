@@ -1,53 +1,49 @@
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 
 function Mainimg() {
-    return (
-        <div className='subimg' id="mainimg">
-            <Carousel>
-                <Carousel.Item>
-                    <div style={{ width: '100%', height: '500px', background: 'pink', color: '#fff' }}>
-                        <h3>slide01</h3>
-                    </div>
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div style={{ width: '100%', height: '500px', background: 'green', color: '#fff' }}>
-                        <h3>slide02</h3>
-                    </div>
-
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div style={{ width: '100%', height: '500px', background: 'blue', color: '#fff' }}>
-                        <h3>slide03</h3>
-                    </div>
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div style={{ width: '100%', height: '500px', background: 'black', color: '#fff' }}>
-                        <h3>slide04</h3>
-                    </div>
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
-        </div>
-    )
+  return (
+    <div className="subimg" id="mainimg">
+      <Carousel>
+        <Carousel.Item>
+          <div>
+            <img
+              src="https://shoppingcdn.namyangi.com/attach/site/2023/202305/e2eedca6-7a8d-4cba-a7c5-1a51abd08df5.png?03bba6c"
+              alt=""
+            />
+          </div>
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div>
+            <img
+              src="https://shoppingcdn.namyangi.com/attach/site/2023/202305/f5b4996a-9307-4fcf-a642-2bdd70054157.png?03bba6c"
+              alt=""
+            />
+          </div>
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div>
+            <img
+              src="https://shoppingcdn.namyangi.com/attach/site/2023/202304/ccbbfa73-13a9-4c0a-ad1e-8124a0a6722f.png?03bba6c"
+              alt=""
+            />
+          </div>
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <div>
+            <img
+              src="https://shoppingcdn.namyangi.com/attach/site/2023/202304/296602ac-7482-449b-a99c-2b90bd3fb38f.png?03bba6c"
+              alt=""
+            />
+          </div>
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+    </div>
+  );
 }
 
 export default Mainimg;

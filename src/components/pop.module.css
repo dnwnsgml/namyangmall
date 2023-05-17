@@ -1,0 +1,53 @@
+.pop {
+  width: 100%;
+  height: auto;
+  letter-spacing: -1px;
+}
+
+.pop_img {
+  margin: 0 auto;
+  width: 1120px;
+  height: 380px;
+  background-color: white;
+}
+
+.pop_body {
+  margin: 0 auto;
+  width: 1120px;
+  height: 1000px;
+}
+
+.pop_body h2 {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.pop_body span {
+  float: right;
+}
+
+.item {
+  width: 100%;
+}
+
+.item_b {
+  width: 550px;
+  float: left;
+  margin: 20px 10px 0 0;
+}
+
+.item_b img {
+  width: 550px;
+  height: 190px;
+  border: 1px solid #dddddd;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.name {
+  color: #b3b3b3;
+}
