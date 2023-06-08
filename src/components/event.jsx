@@ -4,8 +4,42 @@ import Carousel from "react-bootstrap/Carousel";
 import NoticeList from "./NoticeLis";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import { useItemState } from '../context';
+
+function EventList1({ item }) {
+  if (item.event1) {
+    return (
+      <div className={styles.items1}>
+        <div className={styles.items1_b}>
+          <img src={item.src} alt="" />
+          <div className={styles.items_title}>
+            <p className={styles.title}>{item.title}</p>
+            <p className={styles.name}>{item.name}</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
+function EventList2({ item }) {
+  if (item.event2) {
+    return (
+      <div className={styles.items1}>
+        <div className={styles.items1_b}>
+          <img src={item.src} alt="" />
+          <div className={styles.items_title}>
+            <p className={styles.title}>{item.title}</p>
+            <p className={styles.name}>{item.name}</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
 
 function Event() {
+  const items = useItemState();
   return (
     <div>
       <div className="subpath">
@@ -74,18 +108,29 @@ function Event() {
               </div>
             </div>
           </div>
+          <div className={styles.event_h}>
+            <h2>이벤트</h2>
+          </div>
           <div className={styles.event_tabmn} id="event-tabmn">
             <Tabs
-              defaultActiveKey="home"
+              defaultActiveKey="event1"
               transition={false}
               id="noanim-tab-example"
               className="mb-3"
             >
               <Tab eventKey="event1" title="진행중인이벤트">
-                <div></div>
+                <div>
+                  {items.map((item) => (
+                    <EventList1 item={item} key={item.id} />
+                  ))}
+                </div>
               </Tab>
               <Tab eventKey="event2" title="종료된이벤트">
-                <div></div>
+                <div>
+                  {items.map((item) => (
+                    <EventList2 item={item} key={item.id} />
+                  ))}
+                </div>
               </Tab>
             </Tabs>
           </div>

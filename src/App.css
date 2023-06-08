@@ -38,12 +38,6 @@
   font-weight: bold;
 }
 
-.mainimg {
-  width: 100%;
-  height: 420px;
-  background-color: darkolivegreen;
-}
-
 /* 일반적인 스타일시트에서 배경이미지 */
 /* .imgbox {
     margin: 0 auto;
@@ -54,8 +48,7 @@
 
 /* 슬라이드 요소수정 */
 
-#mainimg {
-}
+#mainimg {}
 
 #mainimg button {
   width: 16px;
@@ -79,6 +72,7 @@
   align-items: center;
   box-sizing: border-box;
 }
+
 .subpath ul {
   padding-left: 0;
 }
@@ -117,23 +111,23 @@
   overflow: hidden;
 }
 
-.subttl > div {
+.subttl>div {
   margin: 0 auto;
   width: 1100px;
   height: 300px;
 }
 
-.subttl > div > h3 {
+.subttl>div>h3 {
   margin: 60px 0 30px;
   font-size: 32px;
 }
 
-.subttl > div > span {
+.subttl>div>span {
   float: left;
   font-size: 17px;
 }
 
-.subttl > div > button {
+.subttl>div>button {
   float: right;
   padding: 8px 12px;
   font-size: 12px;
@@ -162,7 +156,7 @@
   flex-wrap: wrap;
 }
 
-.items > div {
+.items>div {
   width: 270px;
   margin: 20px 10px 0 0;
   padding: 5px 5px 10px 0;
@@ -171,7 +165,7 @@
   text-align: center;
 }
 
-.items > div span {
+.items>div span {
   display: inline-block;
   width: 45px;
   text-align: center;
@@ -193,8 +187,7 @@
 
 .footer {
   width: 100%;
-  height: 540px;
-  background-color: cornflowerblue;
+  height: auto;
 }
 
 .footer_top {
@@ -243,20 +236,16 @@
 
 .footer_bot {
   width: 100%;
-  height: 280px;
   background-color: #fff;
 }
 
 /* brand tabmenu */
 
-#brand_tab {
-}
-
 #brand_tab .nav-item {
   width: 25%;
 }
 
-#brand_tab .nav-item > button {
+#brand_tab .nav-item>button {
   width: 100%;
   color: #000;
   font-weight: bold;
@@ -268,6 +257,22 @@
   width: 50%;
 }
 
-#event-tabmn .nav-item > button {
+#event-tabmn .nav-item>button {
   width: 100%;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+/* delivery tabmenu */
+
+#deli_tabmn .nav-item {
+  width: 50%;
+}
+
+#deli_tabmn .nav-item>button {
+  width: 100%;
+  color: #000;
+  font-weight: bold;
+  border-radius: 0;
 }

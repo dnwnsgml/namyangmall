@@ -78,7 +78,7 @@ function Brand() {
             </div>
             <div className={styles.brand_b} id='brand_tab'>
                 <Tabs
-                    defaultActiveKey="profile"
+                    defaultActiveKey="home"
                     id="uncontrolled-tab-example"
                     className="mb-3"
                 >

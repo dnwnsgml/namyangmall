@@ -59,7 +59,7 @@ const initItems = [
   },
   {
     id: 8,
-    src: " https://shoppingcdn.namyangi.com/attach/item/2022/202201/8ebae726-59b2-4817-a6c5-54bdbfc1abf0.jpg?71d3c51",
+    src: "https://shoppingcdn.namyangi.com/attach/item/2022/202211/e9520296-80fd-4e13-96f0-f957df5ee254.jpg?03bba6c",
     title: "[냉장]또떠불 하트초코 125g",
     price: "1400원",
     act: true,
@@ -233,6 +233,136 @@ const initItems = [
     title: "든든한 하루의 시작 아몬드데이 (오리지널/언스위트)",
     name: "2022.10.06 ~ 2023.06.30",
     pop: true,
+  },
+  // 진행중인 이벤트
+  {
+    id: 30,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202305/77352f00-bb9b-44ce-af56-efa6f5d9fa7d.png",
+    title: "오직 시크릿마켓에서만, 쉿크릿 0원딜!",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event1: true
+  },
+  {
+    id: 31,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202304/c59164d0-98b2-49f4-8b82-d6eb920e4868.png",
+    title: "함께하면 대박나는 2023 동행축제",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event1: true
+  },
+  {
+    id: 32,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202304/f249255d-5634-473f-ab68-afe7a7e86de5.jpg",
+    title: "남양몰 포토리뷰 베스트 리뷰어 이벤트",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event1: true
+  },
+  {
+    id: 33,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202304/ed5ed4c7-31bf-4367-b797-c71a272dc09e.png",
+    title: "남양몰 APP 다운로드 이벤트",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event1: true
+  },
+  {
+    id: 34,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2022/202204/fd7365dc-b5be-45ad-bcb4-e8a5c534ae8c.png",
+    title: "초특가의 신세계, 남양몰 시크릿마켓!",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event1: true
+  },
+  // 종료된 이벤트
+  {
+    id: 30,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202305/77352f00-bb9b-44ce-af56-efa6f5d9fa7d.png",
+    title: "오직 시크릿마켓에서만, 쉿크릿 0원딜!",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event2: true
+  },
+  {
+    id: 31,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202305/77352f00-bb9b-44ce-af56-efa6f5d9fa7d.png",
+    title: "오직 시크릿마켓에서만, 쉿크릿 0원딜!",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event2: true
+  },
+  {
+    id: 32,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202305/77352f00-bb9b-44ce-af56-efa6f5d9fa7d.png",
+    title: "오직 시크릿마켓에서만, 쉿크릿 0원딜!",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event2: true
+  },
+  {
+    id: 33,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202305/77352f00-bb9b-44ce-af56-efa6f5d9fa7d.png",
+    title: "오직 시크릿마켓에서만, 쉿크릿 0원딜!",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event2: true
+  },
+  {
+    id: 34,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2023/202305/77352f00-bb9b-44ce-af56-efa6f5d9fa7d.png",
+    title: "오직 시크릿마켓에서만, 쉿크릿 0원딜!",
+    name: "기간 23.05.16 ~ 23.05.19",
+    event2: true
+  },
+  // 가정배달 추천제품
+  {
+    id: 35,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2022/202210/09710662-1367-4fdf-b0cc-6f30c6c7f9a6.jpg?03bba6c",
+    name: "[가정배달] 아침의 선물 (930ml)",
+    price: "1550원",
+    deli1: true
+  },
+  {
+    id: 36,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2021/202111/66d0430e-5b53-4578-9b85-1f94eeec969b.jpg?03bba6c",
+    name: "[가정배달] 아침의 선물 (930ml)",
+    price: "3200원",
+    deli1: true
+  },
+  {
+    id: 37,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2021/202111/f84d85fa-2711-49d0-96b7-c58a4a824fa1.jpg?03bba6c",
+    name: "[가정배달] 아침의 선물 슈퍼밀크 (900ml)",
+    price: "3600원",
+    deli1: true
+  },
+  {
+    id: 38,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2019/201908/2c94a5f5-135f-4357-a3b5-999f53be5970.jpg?03bba6c",
+    name: "[가정배달] 아침의 선물 고칼슘&글루코사민 (900ml)",
+    price: "3600원",
+    deli1: true
+  },
+  {
+    id: 39,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2020/202004/74b07f79-8da7-422a-be7b-d2559b9d29a0.jpg?03bba6c",
+    name: "[가정배달] 하루근력 (900ml)",
+    price: "3750원",
+    deli1: true
+  },
+  // 아이를 위한 제품
+  {
+    id: 40,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2019/201908/6b40a997-2daa-43df-802d-524fd0a77b46.jpg?03bba6c",
+    name: "[가정배달] 이오 (80ml)",
+    price: "550원",
+    deli2: true
+  },
+  {
+    id: 41,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2020/202002/312b3b02-aaac-48f7-b0f8-63ff9d3540b4.jpg?03bba6c",
+    name: "[가정배달] 아침의 선물 아인슈타인 베이비(900ml)",
+    price: "3600원",
+    deli2: true
+  },
+  {
+    id: 42,
+    src: "https://shoppingcdn.namyangi.com/attach/item/2020/202002/6d2173de-954d-4b8b-a62a-db4831e5e772.jpg?03bba6c",
+    name: "[가정배달] 아침의 선물 아인슈타인 키즈(900ml)",
+    price: "3600원",
+    deli2: true
   },
 ];
 
